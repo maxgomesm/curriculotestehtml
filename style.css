@@ -1,0 +1,74 @@
+/* body{
+    background-color: brown;
+} */
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.pag1, .pag2{
+    text-decoration: none;
+    font-family: verdana;
+    color: white;
+}
+
+.contatoback{
+    padding: 10px 10px;
+    font-size: 13px;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.h1contato{
+    font-family: impact;
+    margin-left: 380px;
+}
+
+.wpp{
+    border-radius: 20px;
+    width: 180px;
+    transition: 0.3s;
+}
+.wpp:hover{
+    transform: scale(1.2);
+}
+
+.in{
+    border-radius: 20px;
+    width: 180px;
+    transition: 0.3s;
+}
+.in:hover{
+    transform: scale(1.2);
+}
+
+.insta{
+    border-radius: 20px;
+    width: 180px;
+    transition: 0.3s;
+}
+.insta:hover{
+    transform: scale(1.2);
+}
+
+.divimgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hp1, .hp2, .hp3{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
